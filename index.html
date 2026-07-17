@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive portfolio website with immersive visuals and polished sections." />
+    <title>Ari Dev | Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#">Apeksha<span>Pukane</span></a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Computer Engineering Student • Frontend Web Developer</p>
+          <h1>I build responsive sites that feel modern, fast, and memorable.</h1>
+          <p class="hero-copy">
+            Hi, I’m Apeksha Pukane, a passionate computer engineering student from Pune.
+            I love turning ideas into interactive web experiences using HTML, CSS, JavaScript,
+            React, Node.js, and modern UI practices.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="c:\Users\Admin\Downloads\apeksha_resume (8).pdf" download>Download Resume</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            <a class="btn btn-secondary" href="#projects">View Projects</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <img
+            src="src/apuu3.jpeg"
+            alt="Developer workspace with laptop and screen"
+          />
+          <div class="floating-card">
+            <span>Currently learning</span>
+            <strong>MERN Stack • Full Stack Growth</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Hello! I’m Apeksha Pukane, and I enjoy creating beautiful and useful web experiences.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card reveal">
+            <h3>My journey</h3>
+            <p>
+              I’m currently pursuing B.Tech in Computer Science Engineering from JSPM University, Pune.
+              I enjoy working on frontend development, learning new technologies, and solving real-world problems with clean code.
+            </p>
+          </article>
+
+          <div class="stats-grid">
+            <div class="stat-card reveal">
+              <strong class="count" data-target="3">0</strong>
+              <span>Major web projects</span>
+            </div>
+            <div class="stat-card reveal">
+              <strong class="count" data-target="4">0</strong>
+              <span>Core technologies</span>
+            </div>
+            <div class="stat-card reveal">
+              <strong class="count" data-target="1">0</strong>
+              <span>Remote internship</span>
+            </div>
+            <div class="stat-card reveal">
+              <strong class="count" data-target="100">0</strong>
+              <span>Learning mindset</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Building a strong foundation in computer engineering.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>B.Tech in Computer Science Engineering</h3>
+            <p>JSPM University, Pune<br />2023 – 2026</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Diploma in Computer Engineering</h3>
+            <p>Government Polytechnic Jintur<br />Percentage: 80%<br />2020 – 2023</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Skills that support both design and development.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Programming Languages</h3>
+            <p>C, C++, Java, JavaScript, SQL</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, Bootstrap, Tailwind CSS, React.js</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Backend & Database</h3>
+            <p>Node.js, Express.js, MongoDB</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, Android Studio</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Concepts</h3>
+            <p>OOP, DBMS, Data Structures, Operating System</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work that reflects my growing skills.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=80" alt="OTT platform interface" />
+            <div class="project-info">
+              <h3>OTT Platform</h3>
+              <p>Built with HTML, CSS, JavaScript, React.js, and third-party APIs. Includes trending movies, search, filters, and responsive navigation.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Learning platform dashboard" />
+            <div class="project-info">
+              <h3>E-Shiksha</h3>
+              <p>A learning platform featuring login, authentication, course listing, dashboard views, and learning progress tracking.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Agriculture marketplace dashboard" />
+            <div class="project-info">
+              <h3>AgriShare</h3>
+              <p>Built for crop selling with farmer and buyer dashboards, price prediction, and a modern UI experience.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Internship</p>
+          <h2>Practical experience in frontend development.</h2>
+        </div>
+        <article class="about-card reveal">
+          <h3>Frontend Web Developer</h3>
+          <p>Sumago Infotech Pvt. Ltd. • Remote Internship • May 2024 – Aug 2024</p>
+          <p>Responsibilities included developing responsive UI, working with HTML, CSS, JavaScript, and collaborating through GitHub and version control.</p>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certifications & Achievements</p>
+          <h2>Recognitions that reflect my growth.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Certifications</h3>
+            <p>Java Full Stack Developer (EduSkills)<br />Java Programming (NPTEL)<br />Advanced Computer Network (NPTEL)<br />Frontend Internship (Sumago Infotech)</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Achievements</h3>
+            <p>Responsive websites<br />MERN learning progress<br />GitHub project collaboration<br />Quick learner and team collaborator</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Let’s connect</p>
+          <h2>Open to opportunities and collaborations.</h2>
+          <p><strong>Location:</strong> Pune, Maharashtra</p>
+          <p><strong>Phone:</strong> +91-7498460365</p>
+          <p><strong>Email:</strong> apekshapukane23.cs@jspmuni.ac.in</p>
+          <p><strong>LinkedIn:</strong> linkedin.com/in/apeksha-pukane-43432131a</p>
+          <p><strong>GitHub:</strong> github.com/apeksha4pukane</p>
+          <a class="btn btn-primary" href="mailto:apekshapukane23.cs@jspmuni.ac.in">Email Me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section" style="text-align:center; padding-top:0;">
+      <p>Made with ❤️ by Apeksha Pukane</p>
+      <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
